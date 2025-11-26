@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  margin-top: 10%;
+  margin-left: 10%;
+  z-index: 500;
+}

@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { info } from './Components/Data';
+import { EmblaCarousel }  from './Components/Carousel'; 
+import Sidebar from './Components/Sidebar'; 
+import img from './mc_logo.png'
+import { useEffect } from "react";
+
 
 function App() {
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.href = "https://fonts.cdnfonts.com/css/monument-extended";
+    link.rel = "stylesheet";
+    document.head.appendChild(link);
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MC_LOGO />
+      <Sidebar />
+      <div className='MainContent'>
+        <EmblaCarousel images={info} />
+      </div>
     </div>
   );
 }
+
+function MC_LOGO() {
+  return <img src={img} alt='' className='logo'/>;
+}
+
 
 export default App;

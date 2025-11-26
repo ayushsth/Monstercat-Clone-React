@@ -35,7 +35,8 @@ For this project, Embla Carousel was used. Embla Carousel is a lightweight carou
 
 2) Install dependencies: <br>
     ```bash
-      npm install
+      npm install embla-carousel-react
+      npm install embla-carousel-autoplay
     ```
 
 3) Run the App:

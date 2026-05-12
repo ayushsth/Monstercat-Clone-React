@@ -28,5 +28,4 @@ function MC_LOGO() {
   return <img src={img} alt='' className='logo'/>;
 }
 
-
 export default App;

@@ -1,17 +1,14 @@
+# Monstercat Webpage clone with React and Embla Carousel
+
+For this project, Embla Carousel was used. Embla Carousel is a lightweight carousel library with fluid motion and great swipe precision. It is a 100% open source and dependency free library.
+
 ## Live Link
 https://monstercat-clone-react.vercel.app/
 
-# Monstercat Webpage clone with React and Embla Carousel
-
-# Tech Stack
+## Tech Stack
 1) React.js
 2) Embla Carousel
 3) CSS
-
-
-## About this Project
-
-For this project, Embla Carousel was used. Embla Carousel is a lightweight carousel library with fluid motion and great swipe precision. It is a 100% open source and dependency free library.
 
 ## Features
 
@@ -26,7 +23,6 @@ For this project, Embla Carousel was used. Embla Carousel is a lightweight carou
 - Different logos were used as that of the reference. The icons used weren't freely available so visually similar icons were used.
 - The logo of Monstercat Logo was very dificult to find, so that logo wasn't added.
 - Progress bar animation was not achieved.
-
 
 ## Installation & Setup
 

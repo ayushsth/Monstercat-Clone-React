@@ -1,19 +1,3 @@
-// import useEmblaCarousel from 'embla-carousel-react'
-// import Autoplay from 'embla-carousel-autoplay'
-// import '../style/Carousel.css'
-// import { useState, useEffect, useCallback } from 'react'
-
-// import { PrevButton, NextButton, DotButton } from "./EmblaCarouselButtons";
-
-
-// export function EmblaCarousel({ images }) {
-//   const [emblaRef,embla] = useEmblaCarousel({ loop: true }, [Autoplay()])
-
-//   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
-//   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
-//   const [selectedIndex, setSelectedIndex] = useState(0);
-//   const [scrollSnaps, setScrollSnaps] = useState([]);
-
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import '../style/Carousel.css'

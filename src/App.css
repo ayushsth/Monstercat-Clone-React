@@ -137,18 +137,33 @@
 }
 
 .embla__dot {
-  content: " ";
-  display: block;
   width: 275px;
   height: 5px;
-  background-color: transparent;
-  border: 1px solid #F1F1F1;
-  border-radius: none;
+  background: rgba(255,255,255,0.25);
+  border: 1px solid rgba(255,255,255,0.6);
+  overflow: hidden;
   cursor: pointer;
   margin: 0 10px;
-  text-align: center;
+  padding: 0;
+  position: relative;
 }
 
-.embla__dot.is-selected {
-  background-color: #ccc;
+.embla__progress {
+  height: 100%;
+  width: 0%;
+  background: white;
+}
+
+.embla__progress.active {
+  animation: emblaProgress 4s linear forwards;
+}
+
+@keyframes emblaProgress {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
 }

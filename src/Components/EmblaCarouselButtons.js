@@ -3,10 +3,12 @@ import '../App.css';
 
 export const DotButton = ({ selected, onClick }) => (
   <button
-    className={`embla__dot ${selected ? "is-selected" : ""}`}
+    className="embla__dot"
     type="button"
     onClick={onClick}
-  />
+  >
+    <div className={`embla__progress ${selected ? "active" : ""}`}></div>
+  </button>
 );
 
 export const PrevButton = ({ enabled, onClick }) => (
@@ -25,9 +27,6 @@ export const NextButton = ({ enabled, onClick }) => (
     onClick={onClick}
     disabled={!enabled}
   >
-
     <div>&rsaquo;</div>
-
-
   </button>
 );

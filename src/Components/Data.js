@@ -35,7 +35,7 @@ export const info = [
 ]
 export const SidebarIcons = [
     { id: 1, icon: '/photos/insta1.png', name: 'Instagram' },
-    { id: 2, icon: '/photos/tikTok.png', name: 'TikTok' },
+    { id: 2, icon: '/photos/tiktok.png', name: 'TikTok' },
     { id: 3, icon: '/photos/twitter.png', name: 'X' },
     { id: 4, icon: '/photos/Twitch.png', name: 'Twitch' },
     { id: 5, icon: '/photos/fb.png', name: 'Facebook' },
